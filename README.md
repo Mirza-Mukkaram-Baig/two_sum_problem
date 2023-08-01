@@ -7,7 +7,7 @@ Given an array of integers (nums) and an integer (target), the function twoSum r
 You may assume that each input would have exactly one solution, and you may not use the same element twice. The function can return the answer in any order.
 
 #Usage
-'''python
+```python
 # Create an instance of the Solution class
 solver = Solution()
 
@@ -20,7 +20,7 @@ result = solver.twoSum(nums, target)
 
 # Output should be: [0, 1]
 print(result)
-'''
+```
 
 # Methodology
 The function uses a dictionary (hash table) to store numbers and their indices from the array. It calculates the complement of each number (i.e., target - num) and checks if the complement is already in the dictionary. If it is, the function returns the indices of the complement and the current number. If the complement is not in the dictionary, the function adds the current number and its index to the dictionary.

@@ -6,7 +6,7 @@ Given an array of integers (nums) and an integer (target), the function twoSum r
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice. The function can return the answer in any order.
 
-#Usage
+# Usage
 ```python
 # Create an instance of the Solution class
 solver = Solution()
